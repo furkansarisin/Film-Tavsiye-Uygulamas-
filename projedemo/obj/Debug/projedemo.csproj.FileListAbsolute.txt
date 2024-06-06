@@ -1,0 +1,150 @@
+C:\Users\furka\Desktop\FilmBox\projedemo\projedemo\bin\Debug\projedemo.exe.config
+C:\Users\furka\Desktop\FilmBox\projedemo\projedemo\bin\Debug\projedemo.exe
+C:\Users\furka\Desktop\FilmBox\projedemo\projedemo\bin\Debug\projedemo.pdb
+C:\Users\furka\Desktop\FilmBox\projedemo\projedemo\obj\Debug\projedemo.csproj.AssemblyReference.cache
+C:\Users\furka\Desktop\FilmBox\projedemo\projedemo\obj\Debug\projedemo.Properties.Resources.resources
+C:\Users\furka\Desktop\FilmBox\projedemo\projedemo\obj\Debug\projedemo.csproj.GenerateResource.cache
+C:\Users\furka\Desktop\FilmBox\projedemo\projedemo\obj\Debug\projedemo.csproj.CoreCompileInputs.cache
+C:\Users\furka\Desktop\FilmBox\projedemo\projedemo\obj\Debug\projedemo.exe
+C:\Users\furka\Desktop\FilmBox\projedemo\projedemo\obj\Debug\projedemo.pdb
+C:\Users\furka\Desktop\FilmBox\projedemo\projedemo\bin\Debug\BouncyCastle.Cryptography.dll
+C:\Users\furka\Desktop\FilmBox\projedemo\projedemo\bin\Debug\Google.Protobuf.dll
+C:\Users\furka\Desktop\FilmBox\projedemo\projedemo\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\furka\Desktop\FilmBox\projedemo\projedemo\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\furka\Desktop\FilmBox\projedemo\projedemo\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\furka\Desktop\FilmBox\projedemo\projedemo\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\furka\Desktop\FilmBox\projedemo\projedemo\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\furka\Desktop\FilmBox\projedemo\projedemo\bin\Debug\MySql.Data.dll
+C:\Users\furka\Desktop\FilmBox\projedemo\projedemo\bin\Debug\MySqlConnector.dll
+C:\Users\furka\Desktop\FilmBox\projedemo\projedemo\bin\Debug\System.Buffers.dll
+C:\Users\furka\Desktop\FilmBox\projedemo\projedemo\bin\Debug\System.Configuration.ConfigurationManager.dll
+C:\Users\furka\Desktop\FilmBox\projedemo\projedemo\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\furka\Desktop\FilmBox\projedemo\projedemo\bin\Debug\System.IO.Pipelines.dll
+C:\Users\furka\Desktop\FilmBox\projedemo\projedemo\bin\Debug\System.Memory.dll
+C:\Users\furka\Desktop\FilmBox\projedemo\projedemo\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\furka\Desktop\FilmBox\projedemo\projedemo\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\furka\Desktop\FilmBox\projedemo\projedemo\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\furka\Desktop\FilmBox\projedemo\projedemo\bin\Debug\ZstdSharp.dll
+C:\Users\furka\Desktop\FilmBox\projedemo\projedemo\bin\Debug\BouncyCastle.Cryptography.xml
+C:\Users\furka\Desktop\FilmBox\projedemo\projedemo\bin\Debug\Google.Protobuf.pdb
+C:\Users\furka\Desktop\FilmBox\projedemo\projedemo\bin\Debug\Google.Protobuf.xml
+C:\Users\furka\Desktop\FilmBox\projedemo\projedemo\bin\Debug\K4os.Compression.LZ4.xml
+C:\Users\furka\Desktop\FilmBox\projedemo\projedemo\bin\Debug\K4os.Compression.LZ4.Streams.xml
+C:\Users\furka\Desktop\FilmBox\projedemo\projedemo\bin\Debug\K4os.Hash.xxHash.xml
+C:\Users\furka\Desktop\FilmBox\projedemo\projedemo\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\furka\Desktop\FilmBox\projedemo\projedemo\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\furka\Desktop\FilmBox\projedemo\projedemo\bin\Debug\MySql.Data.xml
+C:\Users\furka\Desktop\FilmBox\projedemo\projedemo\bin\Debug\MySqlConnector.xml
+C:\Users\furka\Desktop\FilmBox\projedemo\projedemo\bin\Debug\System.Buffers.xml
+C:\Users\furka\Desktop\FilmBox\projedemo\projedemo\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\furka\Desktop\FilmBox\projedemo\projedemo\bin\Debug\System.IO.Pipelines.xml
+C:\Users\furka\Desktop\FilmBox\projedemo\projedemo\bin\Debug\System.Memory.xml
+C:\Users\furka\Desktop\FilmBox\projedemo\projedemo\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\furka\Desktop\FilmBox\projedemo\projedemo\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\furka\Desktop\FilmBox\projedemo\projedemo\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\furka\Desktop\FilmBox\projedemo\projedemo\obj\Debug\projedemo.csproj.CopyComplete
+C:\Users\furka\Desktop\FilmBox\projedemo\projedemo\bin\Debug\MetroFramework.Design.dll
+C:\Users\furka\Desktop\FilmBox\projedemo\projedemo\bin\Debug\MetroFramework.dll
+C:\Users\furka\Desktop\FilmBox\projedemo\projedemo\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\furka\Desktop\FilmBox\projedemo\projedemo\obj\Debug\projedemo.Form1.resources
+C:\Users\furka\Desktop\FilmBox\projedemo\projedemo\obj\Debug\projedemo.SplashForm.resources
+D:\projedemo\projedemo\bin\Debug\projedemo.exe.config
+D:\projedemo\projedemo\bin\Debug\projedemo.exe
+D:\projedemo\projedemo\bin\Debug\projedemo.pdb
+D:\projedemo\projedemo\bin\Debug\BouncyCastle.Cryptography.dll
+D:\projedemo\projedemo\bin\Debug\Google.Protobuf.dll
+D:\projedemo\projedemo\bin\Debug\K4os.Compression.LZ4.dll
+D:\projedemo\projedemo\bin\Debug\K4os.Compression.LZ4.Streams.dll
+D:\projedemo\projedemo\bin\Debug\K4os.Hash.xxHash.dll
+D:\projedemo\projedemo\bin\Debug\MetroFramework.Design.dll
+D:\projedemo\projedemo\bin\Debug\MetroFramework.dll
+D:\projedemo\projedemo\bin\Debug\MetroFramework.Fonts.dll
+D:\projedemo\projedemo\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\projedemo\projedemo\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+D:\projedemo\projedemo\bin\Debug\MySql.Data.dll
+D:\projedemo\projedemo\bin\Debug\MySqlConnector.dll
+D:\projedemo\projedemo\bin\Debug\System.Buffers.dll
+D:\projedemo\projedemo\bin\Debug\System.Configuration.ConfigurationManager.dll
+D:\projedemo\projedemo\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+D:\projedemo\projedemo\bin\Debug\System.IO.Pipelines.dll
+D:\projedemo\projedemo\bin\Debug\System.Memory.dll
+D:\projedemo\projedemo\bin\Debug\System.Numerics.Vectors.dll
+D:\projedemo\projedemo\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\projedemo\projedemo\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\projedemo\projedemo\bin\Debug\ZstdSharp.dll
+D:\projedemo\projedemo\bin\Debug\BouncyCastle.Cryptography.xml
+D:\projedemo\projedemo\bin\Debug\Google.Protobuf.pdb
+D:\projedemo\projedemo\bin\Debug\Google.Protobuf.xml
+D:\projedemo\projedemo\bin\Debug\K4os.Compression.LZ4.xml
+D:\projedemo\projedemo\bin\Debug\K4os.Compression.LZ4.Streams.xml
+D:\projedemo\projedemo\bin\Debug\K4os.Hash.xxHash.xml
+D:\projedemo\projedemo\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+D:\projedemo\projedemo\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+D:\projedemo\projedemo\bin\Debug\MySql.Data.xml
+D:\projedemo\projedemo\bin\Debug\MySqlConnector.xml
+D:\projedemo\projedemo\bin\Debug\System.Buffers.xml
+D:\projedemo\projedemo\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+D:\projedemo\projedemo\bin\Debug\System.IO.Pipelines.xml
+D:\projedemo\projedemo\bin\Debug\System.Memory.xml
+D:\projedemo\projedemo\bin\Debug\System.Numerics.Vectors.xml
+D:\projedemo\projedemo\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\projedemo\projedemo\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\projedemo\projedemo\obj\Debug\projedemo.csproj.AssemblyReference.cache
+D:\projedemo\projedemo\obj\Debug\projedemo.Form1.resources
+D:\projedemo\projedemo\obj\Debug\projedemo.Properties.Resources.resources
+D:\projedemo\projedemo\obj\Debug\projedemo.SplashForm.resources
+D:\projedemo\projedemo\obj\Debug\projedemo.csproj.GenerateResource.cache
+D:\projedemo\projedemo\obj\Debug\projedemo.csproj.CoreCompileInputs.cache
+D:\projedemo\projedemo\obj\Debug\projedemo.csproj.Up2Date
+D:\projedemo\projedemo\obj\Debug\projedemo.exe
+D:\projedemo\projedemo\obj\Debug\projedemo.pdb
+C:\Users\Furkan Sarışın\Desktop\DESIGN\projedemo\projedemo\bin\Debug\projedemo.exe.config
+C:\Users\Furkan Sarışın\Desktop\DESIGN\projedemo\projedemo\bin\Debug\projedemo.exe
+C:\Users\Furkan Sarışın\Desktop\DESIGN\projedemo\projedemo\bin\Debug\projedemo.pdb
+C:\Users\Furkan Sarışın\Desktop\DESIGN\projedemo\projedemo\bin\Debug\BouncyCastle.Cryptography.dll
+C:\Users\Furkan Sarışın\Desktop\DESIGN\projedemo\projedemo\bin\Debug\Google.Protobuf.dll
+C:\Users\Furkan Sarışın\Desktop\DESIGN\projedemo\projedemo\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\Furkan Sarışın\Desktop\DESIGN\projedemo\projedemo\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\Furkan Sarışın\Desktop\DESIGN\projedemo\projedemo\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\Furkan Sarışın\Desktop\DESIGN\projedemo\projedemo\bin\Debug\MetroFramework.Design.dll
+C:\Users\Furkan Sarışın\Desktop\DESIGN\projedemo\projedemo\bin\Debug\MetroFramework.dll
+C:\Users\Furkan Sarışın\Desktop\DESIGN\projedemo\projedemo\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\Furkan Sarışın\Desktop\DESIGN\projedemo\projedemo\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Furkan Sarışın\Desktop\DESIGN\projedemo\projedemo\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Furkan Sarışın\Desktop\DESIGN\projedemo\projedemo\bin\Debug\MySql.Data.dll
+C:\Users\Furkan Sarışın\Desktop\DESIGN\projedemo\projedemo\bin\Debug\MySqlConnector.dll
+C:\Users\Furkan Sarışın\Desktop\DESIGN\projedemo\projedemo\bin\Debug\System.Buffers.dll
+C:\Users\Furkan Sarışın\Desktop\DESIGN\projedemo\projedemo\bin\Debug\System.Configuration.ConfigurationManager.dll
+C:\Users\Furkan Sarışın\Desktop\DESIGN\projedemo\projedemo\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Furkan Sarışın\Desktop\DESIGN\projedemo\projedemo\bin\Debug\System.IO.Pipelines.dll
+C:\Users\Furkan Sarışın\Desktop\DESIGN\projedemo\projedemo\bin\Debug\System.Memory.dll
+C:\Users\Furkan Sarışın\Desktop\DESIGN\projedemo\projedemo\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Furkan Sarışın\Desktop\DESIGN\projedemo\projedemo\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Furkan Sarışın\Desktop\DESIGN\projedemo\projedemo\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Furkan Sarışın\Desktop\DESIGN\projedemo\projedemo\bin\Debug\ZstdSharp.dll
+C:\Users\Furkan Sarışın\Desktop\DESIGN\projedemo\projedemo\bin\Debug\BouncyCastle.Cryptography.xml
+C:\Users\Furkan Sarışın\Desktop\DESIGN\projedemo\projedemo\bin\Debug\Google.Protobuf.pdb
+C:\Users\Furkan Sarışın\Desktop\DESIGN\projedemo\projedemo\bin\Debug\Google.Protobuf.xml
+C:\Users\Furkan Sarışın\Desktop\DESIGN\projedemo\projedemo\bin\Debug\K4os.Compression.LZ4.xml
+C:\Users\Furkan Sarışın\Desktop\DESIGN\projedemo\projedemo\bin\Debug\K4os.Compression.LZ4.Streams.xml
+C:\Users\Furkan Sarışın\Desktop\DESIGN\projedemo\projedemo\bin\Debug\K4os.Hash.xxHash.xml
+C:\Users\Furkan Sarışın\Desktop\DESIGN\projedemo\projedemo\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\Furkan Sarışın\Desktop\DESIGN\projedemo\projedemo\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\Furkan Sarışın\Desktop\DESIGN\projedemo\projedemo\bin\Debug\MySql.Data.xml
+C:\Users\Furkan Sarışın\Desktop\DESIGN\projedemo\projedemo\bin\Debug\MySqlConnector.xml
+C:\Users\Furkan Sarışın\Desktop\DESIGN\projedemo\projedemo\bin\Debug\System.Buffers.xml
+C:\Users\Furkan Sarışın\Desktop\DESIGN\projedemo\projedemo\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\Furkan Sarışın\Desktop\DESIGN\projedemo\projedemo\bin\Debug\System.IO.Pipelines.xml
+C:\Users\Furkan Sarışın\Desktop\DESIGN\projedemo\projedemo\bin\Debug\System.Memory.xml
+C:\Users\Furkan Sarışın\Desktop\DESIGN\projedemo\projedemo\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Furkan Sarışın\Desktop\DESIGN\projedemo\projedemo\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Furkan Sarışın\Desktop\DESIGN\projedemo\projedemo\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\Furkan Sarışın\Desktop\DESIGN\projedemo\projedemo\obj\Debug\projedemo.csproj.AssemblyReference.cache
+C:\Users\Furkan Sarışın\Desktop\DESIGN\projedemo\projedemo\obj\Debug\projedemo.Form1.resources
+C:\Users\Furkan Sarışın\Desktop\DESIGN\projedemo\projedemo\obj\Debug\projedemo.Properties.Resources.resources
+C:\Users\Furkan Sarışın\Desktop\DESIGN\projedemo\projedemo\obj\Debug\projedemo.SplashForm.resources
+C:\Users\Furkan Sarışın\Desktop\DESIGN\projedemo\projedemo\obj\Debug\projedemo.csproj.GenerateResource.cache
+C:\Users\Furkan Sarışın\Desktop\DESIGN\projedemo\projedemo\obj\Debug\projedemo.csproj.CoreCompileInputs.cache
+C:\Users\Furkan Sarışın\Desktop\DESIGN\projedemo\projedemo\obj\Debug\projedemo.csproj.Up2Date
+C:\Users\Furkan Sarışın\Desktop\DESIGN\projedemo\projedemo\obj\Debug\projedemo.exe
+C:\Users\Furkan Sarışın\Desktop\DESIGN\projedemo\projedemo\obj\Debug\projedemo.pdb

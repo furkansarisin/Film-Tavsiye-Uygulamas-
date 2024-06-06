@@ -1,0 +1,363 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{1E53B3B9-5AEF-4344-AB1F-645E2CC33B98}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>projedemo</RootNamespace>
+    <AssemblyName>projedemo</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BouncyCastle.Cryptography, Version=2.0.0.0, Culture=neutral, PublicKeyToken=072edcf4a5328938, processorArchitecture=MSIL">
+      <HintPath>..\packages\BouncyCastle.Cryptography.2.2.1\lib\net461\BouncyCastle.Cryptography.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.Protobuf, Version=3.25.1.0, Culture=neutral, PublicKeyToken=a7d26565bac4d604, processorArchitecture=MSIL">
+      <HintPath>..\packages\Google.Protobuf.3.25.1\lib\net45\Google.Protobuf.dll</HintPath>
+    </Reference>
+    <Reference Include="K4os.Compression.LZ4, Version=1.3.5.0, Culture=neutral, PublicKeyToken=2186fa9121ef231d, processorArchitecture=MSIL">
+      <HintPath>..\packages\K4os.Compression.LZ4.1.3.5\lib\net462\K4os.Compression.LZ4.dll</HintPath>
+    </Reference>
+    <Reference Include="K4os.Compression.LZ4.Streams, Version=1.3.5.0, Culture=neutral, PublicKeyToken=2186fa9121ef231d, processorArchitecture=MSIL">
+      <HintPath>..\packages\K4os.Compression.LZ4.Streams.1.3.5\lib\net462\K4os.Compression.LZ4.Streams.dll</HintPath>
+    </Reference>
+    <Reference Include="K4os.Hash.xxHash, Version=1.0.8.0, Culture=neutral, PublicKeyToken=32cd54395057cec3, processorArchitecture=MSIL">
+      <HintPath>..\packages\K4os.Hash.xxHash.1.0.8\lib\net462\K4os.Hash.xxHash.dll</HintPath>
+    </Reference>
+    <Reference Include="MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
+      <HintPath>..\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="MetroFramework.Design, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
+      <HintPath>..\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="MetroFramework.Fonts, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
+      <HintPath>..\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.Fonts.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Bcl.AsyncInterfaces, Version=5.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Bcl.AsyncInterfaces.5.0.0\lib\net461\Microsoft.Bcl.AsyncInterfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Logging.Abstractions, Version=7.0.0.1, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.Logging.Abstractions.7.0.1\lib\net462\Microsoft.Extensions.Logging.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data, Version=8.4.0.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <HintPath>..\packages\MySql.Data.8.4.0\lib\net462\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="MySqlConnector, Version=2.0.0.0, Culture=neutral, PublicKeyToken=d33d3e53aa5f8c92, processorArchitecture=MSIL">
+      <HintPath>..\packages\MySqlConnector.2.3.7\lib\net471\MySqlConnector.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Buffers, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Buffers.4.5.1\lib\net461\System.Buffers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Configuration.ConfigurationManager, Version=4.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Configuration.ConfigurationManager.4.4.1\lib\net461\System.Configuration.ConfigurationManager.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core" />
+    <Reference Include="System.Diagnostics.DiagnosticSource, Version=7.0.0.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Diagnostics.DiagnosticSource.7.0.2\lib\net462\System.Diagnostics.DiagnosticSource.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Pipelines, Version=5.0.0.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.IO.Pipelines.5.0.2\lib\net461\System.IO.Pipelines.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Management" />
+    <Reference Include="System.Memory, Version=4.0.1.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Memory.4.5.5\lib\net461\System.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Numerics.Vectors, Version=4.1.4.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Numerics.Vectors.4.5.0\lib\net46\System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Runtime.CompilerServices.Unsafe.6.0.0\lib\net461\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Extensions, Version=4.2.0.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Threading.Tasks.Extensions.4.5.4\lib\net461\System.Threading.Tasks.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="ZstdSharp, Version=0.7.1.0, Culture=neutral, PublicKeyToken=8d151af33a4ad5cf, processorArchitecture=MSIL">
+      <HintPath>..\packages\ZstdSharp.Port.0.7.1\lib\net461\ZstdSharp.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SplashForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SplashForm.Designer.cs">
+      <DependentUpon>SplashForm.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="SplashForm.resx">
+      <DependentUpon>SplashForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\letterboxtop.png" />
+    <None Include="Resources\bottom.png" />
+    <None Include="Resources\bottom2.png" />
+    <None Include="Resources\bottom3.png" />
+    <Content Include="Actors\Adrien Brody.jpg" />
+    <Content Include="Actors\Al Pacino.jpg" />
+    <Content Include="Actors\Alexandre Rodrigues.jpg" />
+    <Content Include="Actors\Anthony Gonzalez.jpg" />
+    <Content Include="Actors\Anthony Hopkins.jpg" />
+    <Content Include="Actors\Arnold Schwarzenegger.jpg" />
+    <Content Include="Actors\Audrey Tautou.jpg" />
+    <Content Include="Actors\Ben Burtt.jpg" />
+    <Content Include="Actors\Brad Pitt.jpg" />
+    <Content Include="Actors\Brigitte Helm.jpg" />
+    <Content Include="Actors\Bruce Willis.jpg" />
+    <Content Include="Actors\Bruno Ganz.jpg" />
+    <Content Include="Actors\Charles Chaplin.jpg" />
+    <Content Include="Actors\Choi Min-sik.jpg" />
+    <Content Include="Actors\Christian Bale.jpg" />
+    <Content Include="Actors\Clint Eastwood.jpg" />
+    <Content Include="Actors\Daveigh Chase.jpg" />
+    <Content Include="Actors\Edward Norton.jpg" />
+    <Content Include="Actors\Elijah Wood.jpg" />
+    <Content Include="Actors\Ellen Burstyn.jpg" />
+    <Content Include="Actors\F. Murray Abraham.jpg" />
+    <Content Include="Actors\Fred MacMurray.jpg" />
+    <Content Include="Actors\Gene Kelly.jpg" />
+    <Content Include="Actors\Graham Chapman.jpg" />
+    <Content Include="Actors\Gregory Peck.jpg" />
+    <Content Include="Actors\Guy Pearce.jpg" />
+    <Content Include="Actors\Harvey Keite.jpg" />
+    <Content Include="Actors\Henry Fonda.jpg" />
+    <Content Include="Actors\Hitoshi Takagi.jpg" />
+    <Content Include="Actors\Jack Nicholson.jpg" />
+    <Content Include="Actors\James Stewart.jpg" />
+    <Content Include="Actors\Jamie Foxx.jpg" />
+    <Content Include="Actors\Jason Statham.jpg" />
+    <Content Include="Actors\Jean Reno.jpg" />
+    <Content Include="Actors\Jim Carrey.jpg" />
+    <Content Include="Actors\Joaquin Phoenix.jpg" />
+    <Content Include="Actors\Jodie Foster.jpg" />
+    <Content Include="Actors\Jürgen Prochnow.jpg" />
+    <Content Include="Actors\Kang-ho Song.jpg" />
+    <Content Include="Actors\Keanu Reeves.jpg" />
+    <Content Include="Actors\Kevin Spacey.jpg" />
+    <Content Include="Actors\Kirk Douglas.jpg" />
+    <Content Include="Actors\Lamberto Maggiorani.jpg" />
+    <Content Include="Actors\Lee J. Cobb.jpg" />
+    <Content Include="Actors\Leonardo DiCaprio.jpg" />
+    <Content Include="Actors\Liam Neeson.jpg" />
+    <Content Include="Actors\Lubna Azabal.jpg" />
+    <Content Include="Actors\Mads Mikkelsen.jpg" />
+    <Content Include="Actors\Malcolm McDowell.jpg" />
+    <Content Include="Actors\Marilyn Monroe.jpg" />
+    <Content Include="Actors\Mark Hamill.jpg" />
+    <Content Include="Actors\Marlon Brando.jpg" />
+    <Content Include="Actors\Martin Sheen.jpg" />
+    <Content Include="Actors\Matthew Broderick.jpg" />
+    <Content Include="Actors\Matthew McConaughey.jpg" />
+    <Content Include="Actors\Matthew Modine.jpg" />
+    <Content Include="Actors\Mel Gibson.jpg" />
+    <Content Include="Actors\Michael J. Fox.jpg" />
+    <Content Include="Actors\Miles Teller.jpg" />
+    <Content Include="Actors\Morgan Freeman.jpg" />
+    <Content Include="Actors\Peter O%27Toole.jpg" />
+    <Content Include="Actors\Peter Weller.jpg" />
+    <Content Include="Actors\Peyman Moaadi.jpg" />
+    <Content Include="Actors\Robert De Niro.jpg" />
+    <Content Include="Actors\Roberto Benigni.jpg" />
+    <Content Include="Actors\Robin Williams.jpg" />
+    <Content Include="Actors\Roy Scheider.jpg" />
+    <Content Include="Actors\Russell Crowe.jpg" />
+    <Content Include="Actors\Sigourney Weaver.jpg" />
+    <Content Include="Actors\Takashi Shimura.jpg" />
+    <Content Include="Actors\Tatsuya Nakadai.jpg" />
+    <Content Include="Actors\Tim Robbins.jpg" />
+    <Content Include="Actors\Tom Hanks.jpg" />
+    <Content Include="Actors\Toshiro Mifune.jpg" />
+    <Content Include="Actors\Tyrone Power.jpg" />
+    <Content Include="Actors\Ulrich Mühe.jpg" />
+    <Content Include="Actors\Victor Sjöström.jpg" />
+    <Content Include="Images\1.jpg" />
+    <Content Include="Images\10.jpg" />
+    <Content Include="Images\100.jpg" />
+    <Content Include="Images\11.jpg" />
+    <Content Include="Images\12.jpg" />
+    <Content Include="Images\13.jpg" />
+    <Content Include="Images\14.jpg" />
+    <Content Include="Images\15.jpg" />
+    <Content Include="Images\16.jpg" />
+    <Content Include="Images\17.jpg" />
+    <Content Include="Images\18.jpg" />
+    <Content Include="Images\19.jpg" />
+    <Content Include="Images\2.jpg" />
+    <Content Include="Images\20.jpg" />
+    <Content Include="Images\21.jpg" />
+    <Content Include="Images\22.jpg" />
+    <Content Include="Images\23.jpg" />
+    <Content Include="Images\24.jpg" />
+    <Content Include="Images\25.jpg" />
+    <Content Include="Images\26.jpg" />
+    <Content Include="Images\27.jpg" />
+    <Content Include="Images\28.jpg" />
+    <Content Include="Images\29.jpg" />
+    <Content Include="Images\3.jpg" />
+    <Content Include="Images\30.jpg" />
+    <Content Include="Images\31.jpg" />
+    <Content Include="Images\32.jpg" />
+    <Content Include="Images\33.jpg" />
+    <Content Include="Images\34.jpg" />
+    <Content Include="Images\35.jpg" />
+    <Content Include="Images\36.jpg" />
+    <Content Include="Images\37.jpg" />
+    <Content Include="Images\38.jpg" />
+    <Content Include="Images\39.jpg" />
+    <Content Include="Images\4.jpg" />
+    <Content Include="Images\40.jpg" />
+    <Content Include="Images\41.jpg" />
+    <Content Include="Images\42.jpg" />
+    <Content Include="Images\43.jpg" />
+    <Content Include="Images\44.jpg" />
+    <Content Include="Images\45.jpg" />
+    <Content Include="Images\46.jpg" />
+    <Content Include="Images\47.jpg" />
+    <Content Include="Images\48.jpg" />
+    <Content Include="Images\49.jpg" />
+    <Content Include="Images\5.jpg" />
+    <Content Include="Images\50.jpg" />
+    <Content Include="Images\51.jpg" />
+    <Content Include="Images\52.jpg" />
+    <Content Include="Images\53.jpg" />
+    <Content Include="Images\54.jpg" />
+    <Content Include="Images\55.jpg" />
+    <Content Include="Images\56.jpg" />
+    <Content Include="Images\57.jpg" />
+    <Content Include="Images\58.jpg" />
+    <Content Include="Images\59.jpg" />
+    <Content Include="Images\6.jpg" />
+    <Content Include="Images\60.jpg" />
+    <Content Include="Images\61.jpg" />
+    <Content Include="Images\62.jpg" />
+    <Content Include="Images\63.jpg" />
+    <Content Include="Images\64.jpg" />
+    <Content Include="Images\65.jpg" />
+    <Content Include="Images\66.jpg" />
+    <Content Include="Images\67.jpg" />
+    <Content Include="Images\68.jpg" />
+    <Content Include="Images\69.jpg" />
+    <Content Include="Images\7.jpg" />
+    <Content Include="Images\70.jpg" />
+    <Content Include="Images\71.jpg" />
+    <Content Include="Images\72.jpg" />
+    <Content Include="Images\73.jpg" />
+    <Content Include="Images\74.jpg" />
+    <Content Include="Images\75.jpg" />
+    <Content Include="Images\76.jpg" />
+    <Content Include="Images\77.jpg" />
+    <Content Include="Images\78.jpg" />
+    <Content Include="Images\79.jpg" />
+    <Content Include="Images\8.jpg" />
+    <Content Include="Images\80.jpg" />
+    <Content Include="Images\81.jpg" />
+    <Content Include="Images\82.jpg" />
+    <Content Include="Images\83.jpg" />
+    <Content Include="Images\84.jpg" />
+    <Content Include="Images\85.jpg" />
+    <Content Include="Images\86.jpg" />
+    <Content Include="Images\87.jpg" />
+    <Content Include="Images\88.jpg" />
+    <Content Include="Images\89.jpg" />
+    <Content Include="Images\9.jpg" />
+    <Content Include="Images\90.jpg" />
+    <Content Include="Images\91.jpg" />
+    <Content Include="Images\92.jpg" />
+    <Content Include="Images\93.jpg" />
+    <Content Include="Images\94.jpg" />
+    <Content Include="Images\95.jpg" />
+    <Content Include="Images\96.jpg" />
+    <Content Include="Images\97.jpg" />
+    <Content Include="Images\98.jpg" />
+    <Content Include="Images\99.jpg" />
+    <None Include="Resources\Jenerikbitenekadarkamayanlar_ParibuCineverseonline-video-cutter.com1-ezgif.com-video-to-gif-converter.gif" />
+    <None Include="Resources\Jenerikbitenekadarkamayanlar_ParibuCineverseonline-video-cutter.com1-ezgif.com-video-to-gif-converter1.gif" />
+    <Content Include="Resources\player.wav" />
+    <None Include="Resources\Tık Sesi Efekti.mp3" />
+    <EmbeddedResource Include="Sounds\player.wav" />
+    <None Include="Resources\popcorn2.gif" />
+    <None Include="Resources\patlamismisir.gif" />
+    <None Include="Resources\backside.png" />
+    <None Include="Resources\star1.gif" />
+    <None Include="Resources\stargif.gif" />
+    <None Include="Resources\logo5.png" />
+    <None Include="Resources\giphy.gif" />
+    <None Include="Resources\trailer.png" />
+    <None Include="Resources\ourapp.png" />
+    <None Include="Resources\soc accounts.png" />
+    <None Include="Resources\film1.png" />
+    <None Include="Resources\IMDb.logo2.png" />
+    <None Include="Resources\IMDb logo.png" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
